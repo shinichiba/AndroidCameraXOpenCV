@@ -248,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Utils.bitmapToMat(bitmap, mat);
 
 
-                   // Imgproc.cvtColor(mat, mat, currentImageType );
+                   // Imgproc.cvtColor(mat, mat, currentImageType ); // Cap nhat 1 chut
                     Imgproc.circle (
                             mat,                 //Matrix obj of the image
                             new Point(x_center, y_center),    //Center of the circle
